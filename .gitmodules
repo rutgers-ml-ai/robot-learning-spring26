@@ -1,0 +1,3 @@
+[submodule "point-robot-imitation-learning"]
+	path = point-robot-imitation-learning
+	url = https://github.com/kchen50/point-robot-imitation-learning
