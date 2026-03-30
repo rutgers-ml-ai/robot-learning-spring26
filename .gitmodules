@@ -1,3 +1,6 @@
 [submodule "point-robot-imitation-learning"]
 	path = point-robot-imitation-learning
 	url = https://github.com/kchen50/point-robot-imitation-learning
+[submodule "mujoco_demo"]
+	path = mujoco_demo
+	url = https://github.com/kchen50/mujoco_demo
