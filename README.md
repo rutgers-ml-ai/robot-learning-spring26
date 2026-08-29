@@ -29,7 +29,7 @@ Pick whichever setup works best for you:
 
 ### Option 1: Google Colab (easiest — no local install)
 
-If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab notebook version. **NOTE: You need to save the notebook yourself and any additional files yourself, as the Colab instance will delete anytihng unsaved:
+If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab notebook version. **NOTE**: You need to save the notebook yourself and any additional files yourself, as the Colab instance will delete anytihng unsaved:
 
 1. Open [`colab_friendly.ipynb` on Google Drive](https://drive.google.com/file/d/1qNIWkn854_rOreK9ZJCXgX4jMlD8swUK/view?usp=sharing).
 2. Click **Open with → Google Colaboratory**.
