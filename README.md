@@ -123,7 +123,3 @@ Reinforcement learning lecture slides (contrast with imitation learning)
 - [MuJoCo](https://mujoco.readthedocs.io/en/stable/python.html) with the Python bindings (not needed if you use Colab)
 - PyTorch (for the imitation-learning project)
 - A machine with a display, or an X11/WSLg setup, for the MuJoCo passive viewer (local setup only)
-
-## Acknowledgments
-
-Developed as part of the Rutgers IEEE ML/AI Division Robot Learning Track, Spring 2026.
