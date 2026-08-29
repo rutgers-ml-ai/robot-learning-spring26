@@ -23,7 +23,7 @@ By the end, you should be able to walk through the full pipeline: simulate a rob
 
 The imitation-learning project was packaged as a standalone workshop. 
 
-Follow the [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md) for setup, implementation details, and the full workflow.
+Follow the [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md) for setup, implementation details, and the full workflow. 
 
 Pick whichever setup works best for you:
 
@@ -31,13 +31,10 @@ Pick whichever setup works best for you:
 
 If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab notebook version. **NOTE**: You need to save the notebook yourself and any additional files yourself, as the Colab instance will delete anytihng unsaved:
 
-1. Open [`colab_friendly.ipynb` on Google Drive](https://drive.google.com/file/d/1qNIWkn854_rOreK9ZJCXgX4jMlD8swUK/view?usp=sharing).
+1. Open [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kchen50/point-robot-imitation-learning/blob/main/colab_friendly.ipynb).
 2. Click **Open with → Google Colaboratory**.
 3. Run the cells top to bottom. The notebook clones the repo, installs dependencies, and walks you through training and visualizing a behavior cloning policy.
-
-Alternatively, you can open the notebook straight from GitHub in Colab — no Drive account needed:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kchen50/point-robot-imitation-learning/blob/main/colab_friendly.ipynb)
+4. If you are having trouble with implementing the policy yourself, you can still view the demos at [`colab_friendly.ipynb` on Google Drive](https://drive.google.com/file/d/1qNIWkn854_rOreK9ZJCXgX4jMlD8swUK/view?usp=sharing).
 
 ### Option 2: GitHub repo (local setup)
 
@@ -95,6 +92,8 @@ pip install -r requirements.txt
 
 # Visualize the RRT planner
 python -m planner.rrt_core
+
+# Implement your behavior cloning algorithm in train_behavior_cloning_policy.py
 
 # Train a behavior cloning policy (after implementing train_BC_policy)
 python train_behavior_cloning_policy.py
