@@ -21,15 +21,15 @@ By the end, you should be able to walk through the full pipeline: simulate a rob
 
 ## Imitation Learning Workshop
 
-The imitation-learning project was packaged as a standalone workshop. 
+The imitation learning project was packaged as a standalone workshop. 
 
 Follow the [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md) for setup, implementation details, and the full workflow. 
 
 Pick whichever setup works best for you:
 
-### Option 1: Google Colab (easiest — no local install)
+### Option 1: Google Colab (no local install)
 
-If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab notebook version. **NOTE**: You need to save the notebook yourself and any additional files yourself, as the Colab instance will delete anything unsaved:
+If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab notebook version. **NOTE**: You need to save the notebook yourself and any additional files yourself, as the Colab instance will delete anything unsaved. It will also be slightly more difficult to navigate the relevant files in Colab.
 
 1. Open [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qNIWkn854_rOreK9ZJCXgX4jMlD8swUK).
 <!-- 2. Click **Open with → Google Colaboratory**. -->
