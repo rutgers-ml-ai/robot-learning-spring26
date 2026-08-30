@@ -58,8 +58,9 @@ If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab no
 1. Open [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qNIWkn854_rOreK9ZJCXgX4jMlD8swUK).
 <!-- 2. Click **Open with → Google Colaboratory**. -->
 2. Make a copy of the notebook. Click **File → Save a copy in Drive**.
-3. Run the cells top to bottom. The notebook clones the repo, installs dependencies, and walks you through training and visualizing a behavior cloning policy.
-4. If you are having trouble with implementing the policy yourself, you can still view the demos at [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kchen50/point-robot-imitation-learning/blob/main/colab_friendly.ipynb)
+3. Run the cells top to bottom. 
+4. Implement a behavior cloning algorithm. Check the repo for the relevant file to edit.
+5. If you are having trouble with implementing the policy yourself, you can still view the demos at [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kchen50/point-robot-imitation-learning/blob/main/colab_friendly.ipynb)
 
 #### Option 2: GitHub repo (local setup)
 
