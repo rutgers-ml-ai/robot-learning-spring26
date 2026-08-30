@@ -47,7 +47,7 @@ These are starter scripts for working with a Unitree A1 quadruped from the [MuJo
 | `set_action.py` | Send actuator commands (`ctrl`) and observe the robot respond |
 | `mj_utils.py` | Helper functions for joint indices, state I/O, and collision checking |
 
-### Imitation Learning Workshop
+### [point-robot-imitation-learning](https://github.com/kchen50/point-robot-imitation-learning/) -- Imitation Learning Workshop
 
 Instructions are included in [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md).
 
