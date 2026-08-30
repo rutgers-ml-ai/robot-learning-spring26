@@ -30,8 +30,6 @@ If you already cloned without submodules:
 git submodule update --init --recursive
 ```
 
-Each demo also lives in its own GitHub repo (linked below), so you can clone them individually if you only need one.
-
 ### [mujoco_demo](https://github.com/kchen50/mujoco_demo) — Intro to MuJoCo
 
 These are starter scripts for working with a Unitree A1 quadruped from the [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie):
@@ -45,7 +43,7 @@ These are starter scripts for working with a Unitree A1 quadruped from the [MuJo
 
 ### Imitation Learning Workshop
 
-Follow the [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md) for setup, implementation details, and the full workflow. 
+Instructions are included in [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md). 
 
 #### Option 1: Google Colab (no local install)
 
@@ -78,10 +76,3 @@ Workshop: RRT planner → data collection → behavior cloning → policy deploy
         ↓
 Reinforcement learning lecture slides (contrast with imitation learning)
 ```
-
-## Prerequisites
-
-- Python 3.10+
-- [MuJoCo](https://mujoco.readthedocs.io/en/stable/python.html) with the Python bindings (not needed if you use Colab)
-- PyTorch (for the imitation-learning project)
-- A machine with a display, or an X11/WSLg setup, for the MuJoCo passive viewer (local setup only)
