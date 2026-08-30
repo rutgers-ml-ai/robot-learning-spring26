@@ -8,18 +8,6 @@ This repository is a meta-repo of teaching demos created for the **Robot Learnin
 
 By the end, you should be able to walk through the full pipeline: simulate a robot, train a policy to copy expert data using supervised learning, and deploy it back in the simulator.
 
-## Suggested Learning Path
-
-```
-MuJoCo intro (mujoco_demo)
-        ↓
-Imitation learning lecture slides
-        ↓
-Workshop: RRT planner → data collection → behavior cloning → policy deployment
-        ↓
-Reinforcement learning lecture slides (contrast with imitation learning)
-```
-
 ## Lecture Materials
 
 | Topic | Slides |
@@ -75,4 +63,16 @@ If you prefer running everything on your own machine:
 git clone https://github.com/kchen50/point-robot-imitation-learning.git
 cd point-robot-imitation-learning
 pip install -r requirements.txt
+```
+
+## Suggested Learning Path
+
+```
+MuJoCo intro (mujoco_demo)
+        ↓
+Imitation learning lecture slides
+        ↓
+Workshop: RRT planner → data collection → behavior cloning → policy deployment
+        ↓
+Reinforcement learning lecture slides (contrast with imitation learning)
 ```
