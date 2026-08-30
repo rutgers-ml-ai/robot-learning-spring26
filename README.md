@@ -1,12 +1,18 @@
 # Rutgers IEEE ML/AI — Robot Learning Track (Spring 2026)
 
-This repository is a meta-repo of teaching demos created for the **Robot Learning Track** of the Rutgers IEEE ML/AI Division during Spring 2026. 
+This repository is a meta-repo of teaching demos created for the **Robot Learning Track** of the Rutgers IEEE ML/AI Division during Spring 2026. By the end, you should be able to walk through the full pipeline: simulate a robot, train a policy to copy expert data using supervised learning, and deploy it back in the simulator.
 
-1. **MuJoCo fundamentals** — loading models, stepping a simulation, reading and writing joint states, and sending actuator commands in a visualizer loop.
-2. **Imitation learning (behavior cloning)** — collecting expert trajectories with a motion planner, training a neural policy to mimic those demonstrations, and evaluating closed-loop performance in simulation.
-3. **Reinforcement learning (conceptual intro)** — core ideas and how they relate to imitation learning, covered in the lecture slides below.
+## Suggested Learning Path
 
-By the end, you should be able to walk through the full pipeline: simulate a robot, train a policy to copy expert data using supervised learning, and deploy it back in the simulator.
+```
+MuJoCo intro (mujoco_demo)
+        ↓
+Imitation learning lecture slides
+        ↓
+Workshop: RRT planner → data collection → behavior cloning → policy deployment
+        ↓
+Reinforcement learning lecture slides (contrast with imitation learning)
+```
 
 ## Lecture Materials
 
@@ -63,16 +69,4 @@ If you prefer running everything on your own machine:
 git clone https://github.com/kchen50/point-robot-imitation-learning.git
 cd point-robot-imitation-learning
 pip install -r requirements.txt
-```
-
-## Suggested Learning Path
-
-```
-MuJoCo intro (mujoco_demo)
-        ↓
-Imitation learning lecture slides
-        ↓
-Workshop: RRT planner → data collection → behavior cloning → policy deployment
-        ↓
-Reinforcement learning lecture slides (contrast with imitation learning)
 ```
