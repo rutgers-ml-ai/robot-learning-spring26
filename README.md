@@ -1,6 +1,6 @@
 # Rutgers IEEE ML/AI — Robot Learning Track (Spring 2026)
 
-This repository is a meta-repo of teaching demos created for the **Robot Learning Track** of the Rutgers IEEE ML/AI Division during Spring 2026. By the end, you should be able to walk through the full pipeline: simulate a robot, train a policy to copy expert data using supervised learning, and deploy it back in the simulator.
+This repository is a meta-repo of teaching demos created for the **Robot Learning Track** of the Rutgers IEEE ML/AI Division during Spring 2026. By the end, you should be able to simulate a robot, train a policy to copy expert data using supervised learning, and deploy it back in the simulator.
 
 ## Suggested Learning Path
 
@@ -49,7 +49,7 @@ These are starter scripts for working with a Unitree A1 quadruped from the [MuJo
 
 ### Imitation Learning Workshop
 
-Instructions are included in [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md). 
+Instructions are included in [repo README](https://github.com/kchen50/point-robot-imitation-learning/blob/main/README.md).
 
 #### Option 1: Google Colab (no local install)
 
@@ -59,7 +59,7 @@ If you don't want to set up MuJoCo and PyTorch on your machine, use the Colab no
 <!-- 2. Click **Open with → Google Colaboratory**. -->
 2. Make a copy of the notebook. Click **File → Save a copy in Drive**.
 3. Run the cells top to bottom. The notebook clones the repo, installs dependencies, and walks you through training and visualizing a behavior cloning policy.
-4. If you are having trouble with implementing the policy yourself, you can still view the demos at [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kchen50/point-robot-imitation-learning/blob/main/colab_friendly.ipynb).
+4. If you are having trouble with implementing the policy yourself, you can still view the demos at [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kchen50/point-robot-imitation-learning/blob/main/colab_friendly.ipynb)
 
 #### Option 2: GitHub repo (local setup)
 
